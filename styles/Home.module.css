@@ -1,0 +1,45 @@
+.hero {
+  background: #f7f7f7;
+  padding: 48px 0;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 32px;
+  margin: 0 0 12px;
+  letter-spacing: 0.5px;
+}
+
+.heroText {
+  max-width: 520px;
+  margin: 0 auto;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.layout {
+  padding-top: 32px;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 32px;
+}
+
+@media (max-width: 900px) {
+  .body {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .h1 {
+    font-size: 24px;
+  }
+
+  .hero {
+    padding: 32px 0;
+  }
+}

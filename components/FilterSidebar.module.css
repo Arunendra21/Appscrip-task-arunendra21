@@ -1,0 +1,65 @@
+.sidebar {
+  border-right: 1px solid #ececec;
+  padding-right: 20px;
+}
+
+.groupHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.groupToggle {
+  background: none;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chevron {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.clearLink {
+  background: none;
+  border: none;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #666;
+}
+
+.optionList li {
+  margin-bottom: 12px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.option input {
+  width: 15px;
+  height: 15px;
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    border-right: none;
+    padding-right: 0;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+}
